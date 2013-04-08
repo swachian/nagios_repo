@@ -2,3 +2,11 @@
 
 [nginx with nagios](http://lihuipeng.blog.51cto.com/3064864/565412)
 
+安装php的configure
+
+`./configure --prefix=/usr/local/php --with-apxs2=/usr/local/apache2/bin/apxs --with-config-file-path=/etc --with-config-file-scan-dir=/etc/php.d --with-openssl --with-zlib --enable-bcmath --with-bz2 --with-curl --enable-ftp --with-gd --enable-gd-native-ttf --with-gettext --with-mhash --enable-mbstring --with-mcrypt --enable-soap --enable-zip --with-iconv=/usr/local/libiconv --with-mysql=/opt/mysql --without-pear --enable-sockets --with-freetype-dir=/usr/include/freetype2 --with-jpeg-dir`
+
+apache的configure
+
+`./configure --prefix=/usr/local/apache2 --with-included-apr --enable-so --enable-deflate=shared --enable-expires=shared  --enable-headers=shared --enable-rewrite=shared --enable-static-support`
+
